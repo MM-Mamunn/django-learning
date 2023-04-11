@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" href ="../static/styling.css">
+</head>
+
+<div id = "body_of_head">
+    <ul>
+    <li class = "{% if request.path == '/' %} active {% endif %}"><a href = "/">HOME</li></a>   
+    <li class = "{% if request.path == "/course/" %} active {% endif %}"><a href = "/course">COURSE</li></a>
+    <li class = "{% if request.path == '/price/' %} active {% endif %}"><a href = "/price">PRICE</li></a>
+    <li class = "{% if request.path == '/evenodd/' %} active {% endif %}"><a href = "/evenodd">EVEN|ODD</li></a>
+
+</ul>
+ </div>

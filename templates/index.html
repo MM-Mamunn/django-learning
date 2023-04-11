@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{%block content%}
+
+  <div class ="main">Welcome to Our {{title}} hi</div>
+  {%for i in list %}
+      {%if i.name == "mm"%}
+      <div>It's mamun</div>
+          {% else %}
+          <div>It's nott mamun</div>
+      {%endif%}
+  {% endfor %}
+<a href="/course">Courses</a>
+
+<form method="POST">
+    {% csrf_token %} 
+    <label>Enter Num:1 </label>
+    <input type="text" name ="num1" value="{{n1}}"></input><br>
+    <label>Enter Num:2 </label>
+    <input type="text" name ="num2" value="{{n2}}"></input><br>
+    <div class ="add"><button type="submit">ADD</button></div>
+    <br>
+  
+</form>
+
+{%endblock %}

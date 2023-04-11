@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{%block content%}
+
+ <form method="post" >
+    {% csrf_token %}
+    <label>Enter num</label></br>
+    <input type="text" name="num" value="{{n}}" required></input></br>
+    <button type="submit">Even|ODD</button></br></br>
+    <input type="text"  value="{{c}}"></input></br>
+</form>
+
+{%endblock %}

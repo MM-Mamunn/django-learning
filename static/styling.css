@@ -1,0 +1,118 @@
+.main{
+   
+    border:10px double rgb(30, 22, 79);
+    border-radius: 10px;
+    background-color: rgb(131, 138, 238);
+    font-size:50px;
+    color:rgb(17, 12, 12);
+    margin:70px;
+    padding-left:100px;
+    text-shadow: 7px 6px 6px tomato;
+    text-align: center;
+    top :120px;
+    position: sticky;
+}
+/* .crs{
+    border:10px double black;
+    border-radius: 10px;
+    background-color: rgb(51, 69, 51);
+    font-size:50px;
+    color:white;
+    margin:70px;
+    padding-left:100px;
+    text-shadow: 7px 6px 6px tomato;
+} */
+
+#body_of_head{    position: sticky;
+    top:0;}
+#body_of_head ul{
+
+background: linear-gradient(#2a50e6,#6d84e0);
+border: 2px dashed white;
+align-items: center;
+ padding: 30px;
+margin:0;
+}
+#body_of_head li{
+    
+    background: linear-gradient(90deg,#ff0000,#ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
+    color: rgb(22, 54, 54);
+    align-items: center;
+    display: inline-block;
+    margin-left: 165px;
+    font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing:7px;
+font-weight: 600;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+
+}
+a:link {
+    text-decoration: none;
+  }
+.active a{
+    color: red;
+    border: 1px dashed white;
+    border-radius: 2px;
+    background-color:rgb(52, 63, 63);
+    -webkit-text-fill-color: red;
+
+}
+/* just hover will apply where the a tag is under ul */
+ ul a:hover{
+    color: tomato;
+    background-color: #0a112c;
+    -webkit-text-fill-color: lightblue;
+    border: 2px solid lightcoral;
+    font-size: 40px;
+    
+}
+body{
+    background:linear-gradient(0deg,lightcoral, rgb(110, 187, 110),rgb(91, 91, 216),rgb(63, 63, 230));
+}
+h2{
+    font-size:40px;
+    text-shadow: 7px 6px 6px tomato;
+    
+}
+label{
+    font-size:30px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 0);
+}
+.add{
+    margin-left:210px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 0px;
+    font-size:20px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    border-radius:7px;
+    
+}
+.answer{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    background-color: red;
+display: inline-block;
+height: 10%;
+width: 100px;
+margin-left: 650px;
+}
+input{
+    width: 200px;
+    margin-left: 100px;
+    background:linear-gradient(-90deg,lightcoral, rgb(110, 187, 110),rgb(91, 91, 216),rgb(63, 63, 230));
+
+    
+}
+button{
+    width: 200px;
+    margin-left: 100px;
+    background-color: red;
+}
